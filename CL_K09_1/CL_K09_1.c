@@ -7,7 +7,7 @@ void main(){
   int n,ans;
 
   printf("フィボナッチ数列の何番目の値を求めますか(０以上)：");
-  scanf("%d",&n);             /*　値の読み込み　*/
+  scanf("%d",&n);             
   while(n<0){
     printf("0以上の数値を入力してください。\n");
 	 printf("フィボナッチ数列の何番目の値を求めますか(0以上)：");
@@ -19,7 +19,7 @@ void main(){
 }
 
 
-/*　フィボナッチ数列の作成　*/
+
 int fibonacci(int n){
 	if(n < 0){
 	   return 0;
