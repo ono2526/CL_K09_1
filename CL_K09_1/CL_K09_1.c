@@ -1,6 +1,4 @@
 
-
-
 #include <stdio.h>
 
 int fibonacci(int);
@@ -9,7 +7,7 @@ void main(){
   int n,ans;
 
   printf("フィボナッチ数列の何番目の値を求めますか(０以上)：");
-  scanf("%d",&n);
+  scanf("%d",&n);             /*　値の読み込み　*/
   while(n<0){
     printf("0以上の数値を入力してください。\n");
 	 printf("フィボナッチ数列の何番目の値を求めますか(0以上)：");
@@ -20,6 +18,8 @@ void main(){
   printf("フィボナッチ数列F(%d)の値は%dです。\n",n,ans);
 }
 
+
+/*　フィボナッチ数列の作成　*/
 int fibonacci(int n){
 	if(n < 0){
 	   return 0;
